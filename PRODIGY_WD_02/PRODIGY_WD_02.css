@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #c3cfba, #a9c2b9);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.stopwatch-container {
+  text-align: center;
+}
+
+.stopwatch {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #2c2c2c, #1e1e1e);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5), inset 0 0 10px rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.display {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #c3e91a;
+  text-shadow: 0 0 10px #00ff88;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #5a2eb1, #dfab03);
+  color: #1e1e1e;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.laps {
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #3a05fa23;
+}
+
+#lapList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#lapList li {
+  font-size: 1.2rem;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 5px 0;
+  border-radius: 5px;
+  color: #ffffff;
+}
