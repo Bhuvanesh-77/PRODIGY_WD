@@ -1,0 +1,230 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #0056b3;
+  }
+  
+  /* Navigation */
+  nav {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav .nav-links a {
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  nav .nav-links a:hover {
+    color: #007BFF;
+  }
+  
+  /* Home Section */
+  .home {
+    background: #f4f4f4;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .home .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .home p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 80px 0;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Projects Section */
+  .projects {
+    padding: 80px 0;
+    background: #f4f4f4;
+  }
+  
+  .projects h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .project-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .project-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .project-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .project-card p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Skills Section */
+  .skills {
+    padding: 80px 0;
+  }
+  
+  .skills h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .skill {
+    text-align: center;
+  }
+  
+  .skill h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .progress-bar {
+    background: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    height: 10px;
+    background: #007BFF;
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 80px 0;
+    background: #f4f4f4;
+  }
+  
+  .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact input, .contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact button {
+    align-self: flex-start;
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer .social-links {
+    margin-top: 10px;
+  }
+  
+  footer .social-links a {
+    margin: 0 10px;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  footer .social-links a:hover {
+    color: #007BFF;
+  }
+  
